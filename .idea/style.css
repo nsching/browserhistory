@@ -1,0 +1,33 @@
+/* style.css */
+
+/* Font Styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Color Styles */
+body {
+  color: DarkBlue;
+}
+
+/* Margin Styles */
+body {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* Background Color */
+body {
+  background-color: Ivory;
+}
+
+/* Logo Styles */
+.logo {
+  display: inline;
+}
