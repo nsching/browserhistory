@@ -1,7 +1,20 @@
+/* Three-column layout for browser history sections */
+section {
+  width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Full-width introduction section */
+#introduction {
+  width: 100%;
+  clear: both;
+}
 /* Reset default browser styles */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif;
-  width: 100%;
 }
 
 body {
@@ -26,46 +39,13 @@ body {
 .logo {
   display: inline;
 }
-nav {
-  background-color: Ivory;
-  overflow: hidden;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  display: inline;
-}
-
-nav a {
-  color: DarkBlue;
-  display: inline-block;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-  font-family: inherit;
-}
-
-nav a:hover {
-  background-color: gray;
-  color: lightskyblue;
-}
-
-/* Three-column layout for browser history sections */
-section {
-  width: 300px;
-  float: left;
-  margin: 10px;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
 /* Full-width introduction section */
 #introduction {
   width: 100%;
   clear: both;
+}
+
+img {
+  float: left;
+  margin-right: 20px;
 }

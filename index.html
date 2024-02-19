@@ -4,21 +4,44 @@
   <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
-<h1>A history of browsers</h1>
+<div class="container">
+<h1> A history of browsers</h1>
+</div>
 
-<nav>
-  <ul>
-    <li><a href="#ie">A Brief History of IE</a></li>
-    <li><a href="#firefox">A Brief History of Firefox</a></li>
-    <li><a href="#chrome">A Brief History of Chrome</a></li>
-    <li><a href="#introduction">Introduction</a></li>
-  </ul>
+<div class="container">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navigation Bar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#chrome">A brief history of Chrome</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#firefox">A brief history of Firefox</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#ie">A brief history of IE</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
-
+</div>
 <!-- Introduction -->
+<div class="container">
 <section id="introduction">
   <h2>Introduction</h2>
   <p>
@@ -31,10 +54,11 @@
   <p>
     <a href="https://en.wikipedia.org/wiki/Web_browser">Learn more about web browsers</a>
   </p>
-  <!-- Navigation bar -->
 </section>
+</div>
 
 <!-- A brief history of IE -->
+<div class="container">
 <section id="ie">
   <h2>A Brief History of IE</h2>
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Internet_Explorer_10%2B11_logo.svg" width="100">
@@ -49,8 +73,10 @@
     <a href="https://en.wikipedia.org/wiki/Internet_Explorer">Read more about Internet Explorer</a>
   </p>
 </section>
+</div>
 
 <!-- A brief history of Firefox -->
+<div class="container">
 <section id="firefox">
   <h2>A Brief History of Firefox</h2>
   <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Mozilla_Firefox_logo_2013.png" width="100">
@@ -65,8 +91,10 @@
     <a href="https://en.wikipedia.org/wiki/Firefox">Explore more about Firefox</a>
   </p>
 </section>
+</div>
 
 <!-- A brief history of Chrome -->
+<div class="container">
 <section id="chrome">
   <h2>A Brief History of Chrome</h2>
   <img src="https://1000logos.net/wp-content/uploads/2017/08/Chrome-Logo.png" width="100">
@@ -80,7 +108,8 @@
     <a href="https://en.wikipedia.org/wiki/Google_Chrome">Learn more about Google Chrome</a>
   </p>
 </section>
+</div>
 </body>
 <!--
-attempt 1, 30 mins, technically DNF, used chat gpt
+attempt 1, 25+ mins, technically DNF, used chat gpt
 -->
